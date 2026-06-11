@@ -1,1 +1,21 @@
-curl -k -s -w "\nHTTP: %{http_code}\n" -H "Authorization: Bearer YOUR_PAT" "https://central-confluence.company.net/rest/api/content/PAGE_ID"
+toc
+children
+contentbylabel
+jira
+expand
+code
+panel
+info
+note
+warning
+tip
+status
+excerpt
+excerpt-include
+attachments
+widget
+viewpdf
+viewfile
+chart
+task-report
+contributors
