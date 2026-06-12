@@ -1,31 +1,5 @@
-toc
-children
-contentbylabel
-jira
-expand
-code
-panel
-info
-note
-warning
-tip
-status
-excerpt
-excerpt-include
-attachments
-widget
-viewpdf
-viewfile
-chart
-task-report
-contributors
+PUT https://graph.microsoft.com/v1.0/sites/{site-id}/drives/{drive-id}/root:/SiteAssets/logo.png:/content
+Authorization: Bearer {access-token}
+Content-Type: image/png
 
-
-PUT /api/v4/projects/12345678 HTTP/1.1
-Host: gitlab.com
-PRIVATE-TOKEN: glpat-xxxxxxxxxxxxxxxx
-Content-Type: application/json
-
-{
-  "visibility": "public"
-}
+<binary image content>
